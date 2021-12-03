@@ -1,0 +1,34 @@
+.control-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #262626;
+  border-bottom: 1px solid #1f1f1f;
+  padding: 0 1em 0 1em;
+}
+.control-div .control-label {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.7em;
+  color: #B0B0B0;
+  line-height: 0;
+  cursor: default;
+  user-select: none;
+}
+.control-div .control-input {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.7em;
+  color: #2d8ceb;
+  background: none;
+  border: none;
+  line-height: 0;
+  cursor: pointer;
+  user-select: none;
+}
+.control-div .control-input:hover {
+  color: #fff;
+}
+.control-div .control-input:focus {
+  color: #fff;
+  outline: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
